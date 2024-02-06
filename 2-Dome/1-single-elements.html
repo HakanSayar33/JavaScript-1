@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card-header">
+      <h3 class="cart-tittle" id="title">Todo App 2</h3>
+      <ul id="task-list">
+        <li>gorev1</li>
+        <li>gorev2</li>
+        <li>gorev3</li>
+      </ul>
+    </div>
+    <script>
+      let sonuc;
+      sonuc = document.getElementById("title");
+      sonuc = document.getElementById("title").id;
+      sonuc = document.getElementById("title").classList;
+      document.getElementById("title").style.fontSize = "60px";
+      //   document.getElementById("title").style.display = "none";
+
+      document.getElementById("title").innerText = "hakan";
+      document.getElementById("title").innerHTML = "<p> hakan </p>";
+
+      sonuc = document.querySelector("p");
+      sonuc = document.querySelector("#title");
+      sonuc = document.querySelector("li");
+      sonuc = document.querySelector("li:first-child");
+      sonuc = document.querySelector("li:last-child");
+      console.log(sonuc);
+    </script>
+  </body>
+</html>
